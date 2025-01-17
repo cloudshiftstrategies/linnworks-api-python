@@ -1,0 +1,3 @@
+[submodule "PublicApiSpecs"]
+	path = PublicApiSpecs
+	url = https://github.com/LinnSystems/PublicApiSpecs.git
