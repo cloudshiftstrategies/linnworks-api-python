@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "linnworks-api-python"
-version = "0.0.0"
+version = "0.1.0"
 description = "Linnworks API Python Client"
 authors = ["Brian Peterson <brian.peterson@cloudshift.cc>"]
 homepage = "https://github.com/cloudshiftstrategies/linnworks-api-python"
