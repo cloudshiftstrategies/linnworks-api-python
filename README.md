@@ -38,6 +38,7 @@ load_dotenv()
 
 
 def test_auth():
+    """This is an example of how to get an auth token"""
     props = AuthorizeByApplicationRequest(
         ApplicationId=os.getenv("LW_CLIENT_ID"),
         ApplicationSecret=os.getenv("LW_CLIENT_SECRET"),
@@ -49,6 +50,7 @@ def test_auth():
 
 
 def test_inventory():
+    """This is an example of how to create a client and make an API call"""
     inventory_client = InventoryClient(
         linnworks_config=LinnworksConfig(
             client_id=os.getenv("LW_CLIENT_ID"),
